@@ -1,3 +1,14 @@
-opencv-python
-numpy
-pygame
+# Core Frameworks
+streamlit==1.55.0
+tensorflow==2.20.0
+numpy==1.26.4
+
+# Computer Vision
+opencv-python-headless==4.13.0.92
+
+# Media & Audio
+pygame==2.6.1
+
+# Utilities
+h5py==3.14.0
+protobuf==6.33.5
