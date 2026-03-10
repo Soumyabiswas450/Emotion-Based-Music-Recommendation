@@ -53,7 +53,7 @@ def play_music(emotion):
 
 # --- MAIN LOOP ---
 # Use a standard IP cam or 0 for local webcam
-cap = cv2.VideoCapture("http://192.168.29.154:8080/video")
+cap = cv2.VideoCapture(0)
 
 while run:
     ret, frame = cap.read()
